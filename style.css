@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+ul{ 
+  float: left;
+  list-style-type: none;
+  margin-top: 110px;
+  min-height: 100px;
+  margin-left: 70px;
+  font-size: 16px;
+  
+}
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: coral;
+  padding: 10px 34px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+
+}
+ul li a:hover{
+background-color: lightpink;
+  color: black;
+}
+
+.logo img {
+  list-style-type: none;
+  position: absolute;
+  top: 125%;
+  float: left;
+  width: 90px;
+  height: auto;
+  margin-left: -30px;
+}
+
+.main{
+  max-width: 1170px;
+  margin: auto;
+}
+
+.title{
+  list-style-type: none;
+  position: absolute;
+  top: 130%;
+  left: 20%;
+  transform: translate(-20%, -20%);
+
+}
+
+.title h1{
+  color: #170f0f;
+  font-size: 40px;
+
+}
+
+.button{
+  position: absolute;
+  top: 132%;
+  left: 70%;
+}
+
+.btn{
+  list-style-type: none;
+  border: 1px solid coral;
+  padding: 10px 15px;
+  color:red;
+  transition: 5 ease;
+  margin-right: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.btn:hover{
+  background-color: aqua;
+  color: #000;
+}
+.dropdown{
+  float: left;
+  list-style-type: none;
+  transition: 5 ease;
+  margin-top: 100px;
+  min-height: 100px;
+  margin-left: 120px;
+  font-size: 15px;
+  
+}
+.dropdown button{
+  text-decoration: none;
+  color: coral;
+  padding: 15px 40px;
+  font-size: 15px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+  margin-left: -1px;
+}
+.dropdown button:hover{
+    background-color: lightpink;
+      color: black;
+}
+.dropdown a{
+  display: block;
+  color:coral ;
+  text-decoration: none;
+  padding: 10px 40px;
+}
+.dropdown .content{
+  display: none;
+  position: absolute;
+  background-color:aqua;
+}
+.dropdown:hover .content{
+display: block;
+color: #000;
+}
+.dropdown:hover button{
+  background-color: lightpink;
+  color: #000;
+}
+.dropdown a:hover{
+  background-color: lightpink;
+  color: #000;
+}
+container {
+ margin: 0 auto;
+ background: #f2f2f2;
+ box-sizing: border-box;
+}
+/* Mobile phones (portrait and landscape) ---------- */
+@media screen and (max-width: 400px){
+ .container {
+ width: 80%;
+ padding: 0 10px;
+ }
+}
+/* Tablets and iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 60px) and (max-width: 1023px){
+ .container {
+ width: 400px;
+ padding: 0 10px;
+ }
+}
+/* Low resolution desktops and laptops ---------- */
+@media screen and (min-width: 1000px) {
+ .container {
+ width: 960px;
+ padding: 0 15px;
+ }
+}
+/* High resolution desktops and laptops ---------- */
+@media screen and (min-width: 1280px) {
+ .container {
+ width: 1200px;
+ padding: 0 20px;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
